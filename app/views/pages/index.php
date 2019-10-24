@@ -8,11 +8,7 @@
     ?>
 </h1>
 
-<ul>
-    <?php foreach ($data['plannings'] as $planning): ?>
-        <li><?php echo $planning->id_user; ?></li>
-    <?php endforeach; ?>
-</ul>
+<p>This is the Kesylo PHP framework, please refer to the doc on github</p>
 
 <!--add footer-->
 <?php require APPROOT . '/views/includes/footer.php'; ?>
