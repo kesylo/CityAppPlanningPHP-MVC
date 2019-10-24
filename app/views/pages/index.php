@@ -8,7 +8,7 @@
     ?>
 </h1>
 
-<p>This is the Kesylo PHP framework, please refer to the doc on github</p>
+<p>This is the Kesylo PHP framework, please refer to the doc on github page</p>
 
 <!--add footer-->
 <?php require APPROOT . '/views/includes/footer.php'; ?>
