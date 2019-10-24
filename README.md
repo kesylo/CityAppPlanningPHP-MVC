@@ -1,4 +1,4 @@
-# Mini PHP CRUD framework and city center app on top
+# Mini PHP CRUD framework
 
 Mini PHP framework created by [Kesylo](https://github.com/kesylo).
 
