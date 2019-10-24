@@ -1,9 +1,11 @@
 <?php
 
-// default controller
-class Pages extends Controller {
+/**
+ * @property mixed planningModel
+ */
+class Pages extends Controller {        // default controller
 
-    private $planningModel;
+    //private $planningModel;
 
     /**
      * Pages constructor.
@@ -16,9 +18,13 @@ class Pages extends Controller {
 
     // default method
     public function index(){
+        // run DB query
+        $planning = $this->planningModel->getPlannings();
+
         // prepare data to send to view
         $data = [
-            'title' => 'Acceuil'
+            'title' => 'Acceuil',
+            'plannings' => $planning
         ];
 
         // view from the controller class we inherited
