@@ -1,4 +1,11 @@
 <?php
+
+// DB params
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', 'Azerty123456');
+define('DB_NAME', 'cityappdberp');
+
 // App root constant
 define('APPROOT', dirname(dirname(__FILE__)));
 
